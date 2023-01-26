@@ -14,6 +14,9 @@ INCLUDE Irvine32.inc
 
 .data
 ; Área de Declaración de Variables
+variable1 byte 10		;1 byte
+variable2 word 240		;2 byte
+variable3 dword 300h	;4 byte
 
 .code
 

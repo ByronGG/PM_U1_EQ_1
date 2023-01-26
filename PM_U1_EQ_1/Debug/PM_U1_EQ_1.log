@@ -1,1 +1,4 @@
-﻿  PM_U1_EQ_1.vcxproj -> C:\Users\ByronGG\source\repos\PM_U1_EQ_1\Debug\PM_U1_EQ_1.exe
+﻿  Assembling P_2_Registros.asm...
+P_0_Plantilla.obj : warning LNK4258: la directiva '/ENTRY:main@0' no es compatible con el modificador '/ENTRY:main1'; se ha omitido
+P_2_Registros.obj : warning LNK4258: la directiva '/ENTRY:main1@0' no es compatible con el modificador '/ENTRY:main1'; se ha omitido
+  PM_U1_EQ_1.vcxproj -> C:\Users\Reyna\Documents\GitHub\PM_U1_EQ_1\Debug\PM_U1_EQ_1.exe
