@@ -20,6 +20,7 @@
   </ItemGroup>
   <ItemGroup>
     <MASM Include="P_0_Plantilla.asm" />
+    <MASM Include="P_1_PlantillaVariables.asm" />
     <MASM Include="P_2_Registros.asm" />
   </ItemGroup>
   <ItemGroup>
@@ -88,11 +89,12 @@
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <EntryPointSymbol>main1</EntryPointSymbol>
+      <EntryPointSymbol>main2</EntryPointSymbol>
       <ImportLibrary>c:/Irvine</ImportLibrary>
     </Link>
     <MASM>
       <IncludePaths>c:/Irvine</IncludePaths>
+      <AssembledCodeListingFile>$(ProjectName).lst</AssembledCodeListingFile>
     </MASM>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -121,6 +123,7 @@
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EntryPointSymbol>main1</EntryPointSymbol>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">

@@ -5,7 +5,7 @@ TITLE NombrePrograma
 ;
 ; Autore(s):
 ;         Hernandez Santos Reyna Margarita 
-;         Salas Alardin Luis Fernando
+;         Salas Alardin Luis Fernando 
 
 ; Semestre: 8vo Semestre ISC 
 ;FIN DESCRPICIÓN
@@ -14,17 +14,19 @@ INCLUDE Irvine32.inc
 
 .data
 ; Área de Declaración de Variables
-; "tipos de datos" = byte, word, dword
+variable1 byte 10		;1 byte
+variable2 word 240		;2 byte
+variable3 dword 300h	;4 byte
 
 .code
 
-	main PROC
+	main1 PROC
 	
 		;Lógica del Programa
 	
 		
 		exit	
 	
-	main ENDP
+	main1 ENDP
 	
-	END main
+	END main1
